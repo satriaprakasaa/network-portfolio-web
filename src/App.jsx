@@ -473,7 +473,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* 4. PROYEK AKADEMIK & TEKNIS (5 KARTU DENGAN LINK GITHUB) */}
+        {/* 4. PROYEK AKADEMIK & TEKNIS (5 KARTU DENGAN LINK GITHUB ASLI) */}
         <section id="projects" className="scroll-mt-24 space-y-8">
           <div className="flex items-center space-x-3">
             <div className="p-2 bg-cyan-950/60 rounded-lg border border-cyan-500/30 text-cyan-400">
@@ -487,43 +487,7 @@ export default function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             
-            {/* PROYEK 1: Personal Portfolio Website (BARU) */}
-            <div className="bg-slate-900/40 border border-slate-800 hover:border-cyan-500/50 rounded-2xl p-6 flex flex-col justify-between space-y-4 group transition-all duration-300 hover:-translate-y-1">
-              <div className="space-y-3">
-                <div className="flex items-center justify-between">
-                  <span className="px-2.5 py-1 rounded bg-cyan-950/80 border border-cyan-500/30 text-cyan-400 font-mono text-[11px]">
-                    Web & Edge Infra
-                  </span>
-                  <span className="text-slate-500 font-mono text-xs">Vercel / DNS</span>
-                </div>
-                <h3 className="text-lg font-bold text-white group-hover:text-cyan-300 transition-colors">
-                  Personal Portfolio & Custom Domain Integration
-                </h3>
-                <p className="text-slate-400 text-sm leading-relaxed">
-                  Perancangan, pengembangan antarmuka, dan pengintegrasian infrastruktur jaringan untuk website portofolio pribadi (<span className="text-slate-200">satriaprakasa.my.id</span>) yang ditujukan sebagai platform profesional showcase bagi Network & Security Engineering.
-                </p>
-              </div>
-              <div className="pt-4 border-t border-slate-800/80 space-y-3">
-                <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400">
-                  <span className="px-2 py-0.5 rounded bg-slate-950">React.js</span>
-                  <span className="px-2 py-0.5 rounded bg-slate-950">Tailwind CSS</span>
-                  <span className="px-2 py-0.5 rounded bg-slate-950">Vercel Edge</span>
-                  <span className="px-2 py-0.5 rounded bg-slate-950">DNS Anycast</span>
-                </div>
-                <a
-                  href="https://github.com/satriaprakasaa/network-portfolio-web/blob/main/README.md"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-xs font-mono text-cyan-400 hover:text-cyan-300 transition-colors pt-1"
-                >
-                  <GitHubIcon size={14} />
-                  <span>View Documentation (GitHub)</span>
-                  <ExternalLink size={12} />
-                </a>
-              </div>
-            </div>
-
-            {/* PROYEK 2: SDN Research (Sinta 3) */}
+            {/* PROYEK 1: SDN Research */}
             <div className="bg-slate-900/40 border border-slate-800 hover:border-cyan-500/50 rounded-2xl p-6 flex flex-col justify-between space-y-4 group transition-all duration-300 hover:-translate-y-1">
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
@@ -551,7 +515,7 @@ export default function App() {
               </div>
             </div>
 
-            {/* PROYEK 3: Enterprise Network Simulation */}
+            {/* PROYEK 2: Enterprise Network Simulation */}
             <div className="bg-slate-900/40 border border-slate-800 hover:border-cyan-500/50 rounded-2xl p-6 flex flex-col justify-between space-y-4 group transition-all duration-300 hover:-translate-y-1">
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
@@ -574,7 +538,7 @@ export default function App() {
                   <span className="px-2 py-0.5 rounded bg-slate-950">Inter-VLAN</span>
                 </div>
                 <a
-                  href="https://github.com/satriaprakasaa/cisco-network-portofolio/blob/main/README.md"
+                  href="https://github.com/satriaprakasaa/cisco-network-portofolio/blob/1e0f02d4857fc2704849da734499e34487c1d297/README.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-xs font-mono text-cyan-400 hover:text-cyan-300 transition-colors pt-1"
@@ -586,7 +550,7 @@ export default function App() {
               </div>
             </div>
 
-            {/* PROYEK 4: IoT Flood Early Warning System */}
+            {/* PROYEK 3: IoT Flood Early Warning System */}
             <div className="bg-slate-900/40 border border-slate-800 hover:border-emerald-500/50 rounded-2xl p-6 flex flex-col justify-between space-y-4 group transition-all duration-300 hover:-translate-y-1">
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
@@ -604,12 +568,12 @@ export default function App() {
               </div>
               <div className="pt-4 border-t border-slate-800/80 space-y-3">
                 <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400">
-                  <span className="px-2 py-0.5 rounded bg-slate-950">ESP32 / C++</span>
-                  <span className="px-2 py-0.5 rounded bg-slate-950">MQTT Protocol</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">ESP32</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">MQTT</span>
                   <span className="px-2 py-0.5 rounded bg-slate-950">Node-RED</span>
                 </div>
                 <a
-                  href="https://github.com/satriaprakasaa/river-water-level-iot-monitoring/blob/main/README.md"
+                  href="https://github.com/satriaprakasaa/river-water-level-iot-monitoring/blob/064325c60d1467119da7a49b7fed658248ece009/README.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-xs font-mono text-emerald-400 hover:text-emerald-300 transition-colors pt-1"
@@ -621,8 +585,8 @@ export default function App() {
               </div>
             </div>
 
-            {/* PROYEK 5: Campus Network Security Assessment */}
-            <div className="bg-slate-900/40 border border-slate-800 hover:border-cyan-500/50 rounded-2xl p-6 flex flex-col justify-between space-y-4 group transition-all duration-300 hover:-translate-y-1 md:col-span-2">
+            {/* PROYEK 4: Campus Network Security Assessment */}
+            <div className="bg-slate-900/40 border border-slate-800 hover:border-cyan-500/50 rounded-2xl p-6 flex flex-col justify-between space-y-4 group transition-all duration-300 hover:-translate-y-1">
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
                   <span className="px-2.5 py-1 rounded bg-cyan-950/80 border border-cyan-500/30 text-cyan-400 font-mono text-[11px]">
@@ -640,11 +604,47 @@ export default function App() {
               <div className="pt-4 border-t border-slate-800/80 space-y-3">
                 <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400">
                   <span className="px-2 py-0.5 rounded bg-slate-950">Kali Linux</span>
-                  <span className="px-2 py-0.5 rounded bg-slate-950">OpenSSL / OpenPGP</span>
-                  <span className="px-2 py-0.5 rounded bg-slate-950">Risk Register</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">SSH Hardening</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">TLS / OpenPGP</span>
                 </div>
                 <a
-                  href="https://github.com/satriaprakasaa/network-security-audit-risk-assessment/blob/main/README.md"
+                  href="https://github.com/satriaprakasaa/network-security-audit-risk-assessment/blob/c59bd3e2e2bf40ecd72bf5b11a93e18e47efffe0/README.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-xs font-mono text-cyan-400 hover:text-cyan-300 transition-colors pt-1"
+                >
+                  <GitHubIcon size={14} />
+                  <span>View Documentation (GitHub)</span>
+                  <ExternalLink size={12} />
+                </a>
+              </div>
+            </div>
+
+            {/* PROYEK 5: Personal Portfolio Website */}
+            <div className="bg-slate-900/40 border border-slate-800 hover:border-cyan-500/50 rounded-2xl p-6 flex flex-col justify-between space-y-4 group transition-all duration-300 hover:-translate-y-1 md:col-span-2">
+              <div className="space-y-3">
+                <div className="flex items-center justify-between">
+                  <span className="px-2.5 py-1 rounded bg-cyan-950/80 border border-cyan-500/30 text-cyan-400 font-mono text-[11px]">
+                    Web Development
+                  </span>
+                  <span className="text-slate-500 font-mono text-xs">Production Ready</span>
+                </div>
+                <h3 className="text-lg font-bold text-white group-hover:text-cyan-300 transition-colors">
+                  Personal Portfolio Website & Custom Domain Integration
+                </h3>
+                <p className="text-slate-400 text-sm leading-relaxed">
+                  Perancangan, pengembangan antarmuka, dan pengintegrasian infrastruktur jaringan untuk website portofolio pribadi (<span className="text-slate-200">satriaprakasa.my.id</span>) yang ditujukan sebagai platform profesional showcase bagi Network & Security Engineering.
+                </p>
+              </div>
+              <div className="pt-4 border-t border-slate-800/80 space-y-3">
+                <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400">
+                  <span className="px-2 py-0.5 rounded bg-slate-950">React.js</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">Tailwind CSS</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">Vite</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">Vercel</span>
+                </div>
+                <a
+                  href="https://github.com/satriaprakasaa/network-portfolio-web/blob/1344989d76648ab71f1fc5e7fe0f5522f7312baa/README.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-xs font-mono text-cyan-400 hover:text-cyan-300 transition-colors pt-1"
@@ -659,9 +659,8 @@ export default function App() {
           </div>
         </section>
 
-        {/* 5. SERTIFIKASI & ORGANISASI */}
+        {/* 5. SERTIFIKASI & PENGALAMAN ORGANISASI */}
         <section id="experience" className="scroll-mt-24 space-y-8">
-          
           <div className="flex items-center space-x-3">
             <div className="p-2 bg-cyan-950/60 rounded-lg border border-cyan-500/30 text-cyan-400">
               <Award size={22} />
@@ -672,46 +671,75 @@ export default function App() {
             <div className="flex-1 h-[1px] bg-gradient-to-r from-cyan-500/30 to-transparent ml-4" />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-slate-900/40 border border-slate-800 rounded-2xl p-6 space-y-4">
-              <h3 className="text-lg font-bold text-white flex items-center gap-2 font-mono">
-                <Award className="text-cyan-400" size={18} />
-                <span>Sertifikasi Teknis</span>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="space-y-4">
+              <h3 className="text-lg font-bold text-slate-200 font-mono flex items-center gap-2">
+                <Award size={18} className="text-cyan-400" /> Sertifikasi Teknis & Pelatihan
               </h3>
-              <div className="space-y-4 pt-2">
-                <div className="border-l-2 border-cyan-500/50 pl-4 space-y-1">
-                  <h4 className="text-sm font-semibold text-white">Google Cloud Computing Foundations</h4>
-                  <p className="text-xs text-cyan-400 font-mono">Google Cloud Academy</p>
-                  <p className="text-xs text-slate-400">Komputasi Awan, Infrastructure as Service (IaaS), Cloud Storage, & IAM.</p>
-                </div>
-                <div className="border-l-2 border-emerald-500/50 pl-4 space-y-1">
-                  <h4 className="text-sm font-semibold text-white">Networking Essentials & Cybersecurity Basics</h4>
-                  <p className="text-xs text-emerald-400 font-mono">Cisco Networking Academy</p>
-                  <p className="text-xs text-slate-400">Arsitektur TCP/IP, OSI Layer, IPv4/IPv6 Subnetting, dan Konsep Keamanan Siber.</p>
-                </div>
+              
+              <div className="space-y-3">
+                {[
+                  {
+                    title: "Google Cloud Computing Foundations",
+                    issuer: "Google Cloud & Bangkit Academy",
+                    date: "2024",
+                    desc: "Memahami konsep dasar GCP, Virtual Machines, Cloud Storage, dan Dasar Jaringan Awan."
+                  },
+                  {
+                    title: "Cisco Networking Essentials",
+                    issuer: "Cisco Networking Academy",
+                    date: "2023",
+                    desc: "Routing, Switching, Subnetting IP, Protokol Jaringan OSI Layer, dan Konfigurasi Dasar Router."
+                  }
+                ].map((cert, idx) => (
+                  <div key={idx} className="bg-slate-900/40 border border-slate-800 rounded-xl p-5 space-y-2">
+                    <div className="flex justify-between items-start">
+                      <h4 className="font-bold text-white text-base">{cert.title}</h4>
+                      <span className="text-xs font-mono text-cyan-400 bg-cyan-950/80 px-2 py-0.5 rounded border border-cyan-800/40">{cert.date}</span>
+                    </div>
+                    <p className="text-xs font-mono text-slate-400">{cert.issuer}</p>
+                    <p className="text-sm text-slate-400 leading-relaxed pt-1">{cert.desc}</p>
+                  </div>
+                ))}
               </div>
             </div>
 
-            <div className="bg-slate-900/40 border border-slate-800 rounded-2xl p-6 space-y-4">
-              <h3 className="text-lg font-bold text-white flex items-center gap-2 font-mono">
-                <Briefcase className="text-emerald-400" size={18} />
-                <span>Pengalaman Organisasi</span>
+            <div className="space-y-4">
+              <h3 className="text-lg font-bold text-slate-200 font-mono flex items-center gap-2">
+                <Briefcase size={18} className="text-emerald-400" /> Kepemimpinan & Organisasi
               </h3>
-              <div className="space-y-4 pt-2">
-                <div className="border-l-2 border-emerald-500/50 pl-4 space-y-1">
-                  <h4 className="text-sm font-semibold text-white">Pengurus Himpunan Mahasiswa Telekomunikasi</h4>
-                  <p className="text-xs text-emerald-400 font-mono">HIMA Sistetel UPI Purwakarta</p>
-                  <p className="text-xs text-slate-400">Mengelola operasional tim, koordinasi antar divisi, dan memimpin eksekusi program kerja teknis.</p>
-                </div>
+
+              <div className="space-y-3">
+                {[
+                  {
+                    role: "Pengurus & Staf Operasional",
+                    org: "Himpunan Mahasiswa Sistem Telekomunikasi (HMA ST)",
+                    date: "2023 - Sekarang",
+                    desc: "Mengkoordinasikan logistik teknis acara, manajemen tim, dan komunikasi antar divisi akademik."
+                  },
+                  {
+                    role: "Panitia Pelaksana Kegiatan Akademik",
+                    org: "Universitas Pendidikan Indonesia",
+                    date: "2023 - 2024",
+                    desc: "Bertanggung jawab atas kelancaran infrastruktur teknis dan jaringan selama kegiatan workshop laboratorium."
+                  }
+                ].map((exp, idx) => (
+                  <div key={idx} className="bg-slate-900/40 border border-slate-800 rounded-xl p-5 space-y-2">
+                    <div className="flex justify-between items-start">
+                      <h4 className="font-bold text-white text-base">{exp.role}</h4>
+                      <span className="text-xs font-mono text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-800/40">{exp.date}</span>
+                    </div>
+                    <p className="text-xs font-mono text-slate-400">{exp.org}</p>
+                    <p className="text-sm text-slate-400 leading-relaxed pt-1">{exp.desc}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
-
         </section>
 
         {/* 6. KONTAK */}
-        <section id="contact" className="scroll-mt-24 space-y-8 pb-12">
-          
+        <section id="contact" className="scroll-mt-24 space-y-8">
           <div className="flex items-center space-x-3">
             <div className="p-2 bg-cyan-950/60 rounded-lg border border-cyan-500/30 text-cyan-400">
               <Mail size={22} />
@@ -722,52 +750,56 @@ export default function App() {
             <div className="flex-1 h-[1px] bg-gradient-to-r from-cyan-500/30 to-transparent ml-4" />
           </div>
 
-          <div className="bg-gradient-to-br from-slate-900/80 via-slate-900/40 to-cyan-950/20 border border-cyan-500/30 rounded-2xl p-8 max-w-3xl mx-auto text-center space-y-6 shadow-xl">
-            <h3 className="text-2xl font-bold text-white">Tertarik Bekerja Sama atau Rekrutmen Magang?</h3>
-            <p className="text-slate-400 text-sm max-w-xl mx-auto leading-relaxed">
-              Saya siap berkontribusi sebagai <span className="text-cyan-300">Network Engineer Intern</span> di wilayah <span className="text-emerald-400">Jakarta & Bandung</span>. Silakan hubungi saya melalui surel atau jaringan profesional berikut:
-            </p>
+          <div className="bg-gradient-to-b from-slate-900/60 to-cyan-950/20 border border-cyan-500/30 rounded-2xl p-8 sm:p-12 text-center max-w-3xl mx-auto space-y-6 relative overflow-hidden">
+            <div className="space-y-3">
+              <h3 className="text-2xl sm:text-3xl font-extrabold text-white">
+                Mari Berkolaborasi & Terhubung
+              </h3>
+              <p className="text-slate-400 text-base max-w-xl mx-auto leading-relaxed">
+                Saya selalu terbuka untuk berdiskusi mengenai posisi magang <span className="text-cyan-300">Network Engineer</span>, peluang riset jaringan, maupun proyek infrastruktur IT.
+              </p>
+            </div>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-              <button
-                onClick={copyEmail}
-                className="w-full sm:w-auto px-5 py-3 rounded-xl bg-slate-950 border border-cyan-500/40 hover:border-cyan-400 text-slate-200 font-mono text-xs flex items-center justify-center gap-2.5 transition-all cursor-pointer group"
-              >
-                <Mail size={16} className="text-cyan-400" />
+              <div className="flex items-center space-x-2 bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm font-mono text-slate-200">
+                <Mail size={18} className="text-cyan-400" />
                 <span>satriaprakasaa19@gmail.com</span>
-                {copied ? <Check size={14} className="text-emerald-400" /> : <Copy size={14} className="text-slate-500 group-hover:text-slate-300" />}
-              </button>
+                <button
+                  onClick={copyEmail}
+                  className="ml-2 p-1 text-slate-400 hover:text-cyan-400 transition-colors"
+                  title="Salin Email"
+                >
+                  {copied ? <Check size={16} className="text-emerald-400" /> : <Copy size={16} />}
+                </button>
+              </div>
 
               <a
-                href="https://linkedin.com/in/satria-prakasa"
+                href="https://linkedin.com/in/satria-prakasa-simbolon"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto px-5 py-3 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold font-mono text-xs flex items-center justify-center gap-2 transition-all shadow-[0_0_15px_rgba(6,182,212,0.3)] cursor-pointer"
+                className="flex items-center gap-2 bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-6 py-3 rounded-xl font-mono text-sm font-bold transition-all shadow-[0_0_15px_rgba(6,182,212,0.4)]"
               >
-                <LinkedInIcon size={16} />
+                <LinkedInIcon size={18} />
                 <span>LinkedIn Profile</span>
-                <ExternalLink size={12} />
               </a>
 
               <a
                 href="https://github.com/satriaprakasaa"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto px-5 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 font-mono text-xs flex items-center justify-center gap-2 transition-all cursor-pointer"
+                className="flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 px-6 py-3 rounded-xl font-mono text-sm font-bold transition-all"
               >
-                <GitHubIcon size={16} />
+                <GitHubIcon size={18} />
                 <span>GitHub Profile</span>
-                <ExternalLink size={12} />
               </a>
             </div>
           </div>
-
         </section>
 
       </main>
 
       {/* FOOTER */}
-      <footer className="border-t border-slate-800/80 bg-[#070b12] py-8 text-center text-xs font-mono text-slate-500">
+      <footer className="border-t border-slate-900 bg-[#070b12] py-8 text-center text-xs font-mono text-slate-500 relative z-10">
         <p>© 2026 Satria Prakasa Simbolon. Built with React & Tailwind CSS. Deployed on Vercel Edge Network.</p>
       </footer>
 
