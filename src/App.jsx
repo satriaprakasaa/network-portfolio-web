@@ -473,7 +473,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* 4. PROYEK AKADEMIK & TEKNIS (5 KARTU DENGAN LINK GITHUB ASLI) */}
+        {/* 4. PROYEK AKADEMIK & TEKNIS (BAGIAN PERBARUAN 6 PROYEK) */}
         <section id="projects" className="scroll-mt-24 space-y-8">
           <div className="flex items-center space-x-3">
             <div className="p-2 bg-cyan-950/60 rounded-lg border border-cyan-500/30 text-cyan-400">
@@ -487,30 +487,28 @@ export default function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             
-            {/* PROYEK 1: SDN Research */}
+            {/* PROYEK 1: Personal Portfolio */}
             <div className="bg-slate-900/40 border border-slate-800 hover:border-cyan-500/50 rounded-2xl p-6 flex flex-col justify-between space-y-4 group transition-all duration-300 hover:-translate-y-1">
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
                   <span className="px-2.5 py-1 rounded bg-cyan-950/80 border border-cyan-500/30 text-cyan-400 font-mono text-[11px]">
-                    SDN / Research
+                    PERSONAL PROJECT
                   </span>
-                  <span className="text-slate-500 font-mono text-xs">Sinta 3 Draft</span>
+                  <span className="text-slate-500 font-mono text-xs">Production Ready</span>
                 </div>
                 <h3 className="text-lg font-bold text-white group-hover:text-cyan-300 transition-colors">
-                  SDN vs. Conventional Network Performance
+                  Personal Portfolio Website & Custom Domain Integration
                 </h3>
                 <p className="text-slate-400 text-sm leading-relaxed">
-                  Evaluasi performa jaringan membandingkan latency dan throughput menggunakan <span className="text-slate-200">Ryu Controller & Mininet</span>, serta menyusun naskah jurnal ilmiah terakreditasi Sinta 3.
+                  Proyek ini bertujuan untuk membangun platform portofolio web yang responsif, cepat, dan aman. Selain berfokus pada pengalaman pengguna (UI/UX), proyek ini menjadi bukti praktik langsung dalam manajemen domain, konfigurasi record DNS Anycast, dan penerbitan sertifikat SSL/TLS di Edge Network.
                 </p>
               </div>
               <div className="pt-4 border-t border-slate-800/80 space-y-3">
                 <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400">
-                  <span className="px-2 py-0.5 rounded bg-slate-950">Ryu Controller</span>
-                  <span className="px-2 py-0.5 rounded bg-slate-950">Mininet</span>
-                  <span className="px-2 py-0.5 rounded bg-slate-950">OpenFlow v1.3</span>
-                </div>
-                <div className="text-xs font-mono text-slate-500 pt-1 italic">
-                  🔒 Paper Under Review / Internal Release
+                  <span className="px-2 py-0.5 rounded bg-slate-950">React.js</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">Tailwind CSS</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">DNS Anycast</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">Vercel</span>
                 </div>
               </div>
             </div>
@@ -520,7 +518,7 @@ export default function App() {
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
                   <span className="px-2.5 py-1 rounded bg-cyan-950/80 border border-cyan-500/30 text-cyan-400 font-mono text-[11px]">
-                    Enterprise Network
+                    PERSONAL PROJECT
                   </span>
                   <span className="text-slate-500 font-mono text-xs">High Availability</span>
                 </div>
@@ -537,122 +535,108 @@ export default function App() {
                   <span className="px-2 py-0.5 rounded bg-slate-950">HSRP</span>
                   <span className="px-2 py-0.5 rounded bg-slate-950">Inter-VLAN</span>
                 </div>
-                <a
-                  href="https://github.com/satriaprakasaa/cisco-network-portofolio/blob/1e0f02d4857fc2704849da734499e34487c1d297/README.md"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-xs font-mono text-cyan-400 hover:text-cyan-300 transition-colors pt-1"
-                >
-                  <GitHubIcon size={14} />
-                  <span>View Documentation (GitHub)</span>
-                  <ExternalLink size={12} />
-                </a>
               </div>
             </div>
 
-            {/* PROYEK 3: IoT Flood Early Warning System */}
+            {/* PROYEK 3: Real-Time River Water Level IoT */}
             <div className="bg-slate-900/40 border border-slate-800 hover:border-emerald-500/50 rounded-2xl p-6 flex flex-col justify-between space-y-4 group transition-all duration-300 hover:-translate-y-1">
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
                   <span className="px-2.5 py-1 rounded bg-emerald-950/80 border border-emerald-500/30 text-emerald-400 font-mono text-[11px]">
-                    IoT & Cloud
+                    PERSONAL PROJECT
                   </span>
                   <span className="text-slate-500 font-mono text-xs">Real-Time Telemetry</span>
                 </div>
                 <h3 className="text-lg font-bold text-white group-hover:text-emerald-300 transition-colors">
-                  IoT Flood Early Warning System
+                  Real-Time River Water Level IoT Monitoring System
                 </h3>
                 <p className="text-slate-400 text-sm leading-relaxed">
-                  Membangun sistem pemantau tinggi air real-time berbasis mikrokontroler <span className="text-slate-200">ESP32</span> dan menyalurkan telemetri format JSON melalui protokol MQTT ke dashboard monitoring Node-RED.
+                  Sistem pemantauan tinggi muka air sungai (Flood Early Warning System) berbasis Internet of Things (IoT). Sistem ini mengukur jarak permukaan air menggunakan sensor ultrasonik HC-SR04 dan mikrokontroler ESP32 pada titik IoT Edge, melakukan kalkulasi ketinggian air riil secara real-time, lalu mempublikasikan payload JSON via broker MQTT untuk diproses dan divisualisasikan pada Node-RED Dashboard (Cyber Aqua Monitoring UI).
                 </p>
               </div>
               <div className="pt-4 border-t border-slate-800/80 space-y-3">
                 <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400">
                   <span className="px-2 py-0.5 rounded bg-slate-950">ESP32</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">HC-SR04</span>
                   <span className="px-2 py-0.5 rounded bg-slate-950">MQTT</span>
                   <span className="px-2 py-0.5 rounded bg-slate-950">Node-RED</span>
                 </div>
-                <a
-                  href="https://github.com/satriaprakasaa/river-water-level-iot-monitoring/blob/064325c60d1467119da7a49b7fed658248ece009/README.md"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-xs font-mono text-emerald-400 hover:text-emerald-300 transition-colors pt-1"
-                >
-                  <GitHubIcon size={14} />
-                  <span>View Documentation (GitHub)</span>
-                  <ExternalLink size={12} />
-                </a>
               </div>
             </div>
 
-            {/* PROYEK 4: Campus Network Security Assessment */}
+            {/* PROYEK 4: SDN Research */}
             <div className="bg-slate-900/40 border border-slate-800 hover:border-cyan-500/50 rounded-2xl p-6 flex flex-col justify-between space-y-4 group transition-all duration-300 hover:-translate-y-1">
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
                   <span className="px-2.5 py-1 rounded bg-cyan-950/80 border border-cyan-500/30 text-cyan-400 font-mono text-[11px]">
-                    Network Security
+                    ACADEMIC PROJECT
+                  </span>
+                  <span className="text-slate-500 font-mono text-xs">Sinta 3 Draft</span>
+                </div>
+                <h3 className="text-lg font-bold text-white group-hover:text-cyan-300 transition-colors">
+                  SDN vs. Conventional Network Performance
+                </h3>
+                <p className="text-slate-400 text-sm leading-relaxed">
+                  Evaluasi performa jaringan membandingkan latency dan throughput menggunakan <span className="text-slate-200">Ryu Controller & Mininet</span>, serta menyusun naskah jurnal ilmiah terakreditasi Sinta 3.
+                </p>
+              </div>
+              <div className="pt-4 border-t border-slate-800/80 space-y-3">
+                <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400">
+                  <span className="px-2 py-0.5 rounded bg-slate-950">Ryu Controller</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">Mininet</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">OpenFlow v1.3</span>
+                </div>
+              </div>
+            </div>
+
+            {/* PROYEK 5: Campus Network Security Investigation */}
+            <div className="bg-slate-900/40 border border-slate-800 hover:border-cyan-500/50 rounded-2xl p-6 flex flex-col justify-between space-y-4 group transition-all duration-300 hover:-translate-y-1">
+              <div className="space-y-3">
+                <div className="flex items-center justify-between">
+                  <span className="px-2.5 py-1 rounded bg-cyan-950/80 border border-cyan-500/30 text-cyan-400 font-mono text-[11px]">
+                    ACADEMIC PROJECT
                   </span>
                   <span className="text-slate-500 font-mono text-xs">Risk Assessment</span>
                 </div>
                 <h3 className="text-lg font-bold text-white group-hover:text-cyan-300 transition-colors">
-                  Campus Network Security Assessment
+                  Campus Network Security Investigation & Risk Assessment
                 </h3>
                 <p className="text-slate-400 text-sm leading-relaxed">
-                  Melakukan audit keamanan domain (SSH Hardening, OpenPGP, TLS) via <span className="text-slate-200">Kali Linux</span> dan menyusun matriks Risk Register lengkap dengan rekomendasi remedi teknis.
+                  Proyek ini merupakan investigasi audit keamanan infrastruktur jaringan kampus (simulated file sharing service files.kelb03.tl455.test). Berperan sebagai Lead Technical Reviewer & Risk Analyst, tugas utama meliputi validasi silang independen (independent cross-validation) terhadap tiga domain keamanan: Otentikasi/SSH, Kriptografi OpenPGP, serta PKI/TLS Certificate & DNSSEC.
                 </p>
               </div>
               <div className="pt-4 border-t border-slate-800/80 space-y-3">
                 <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400">
-                  <span className="px-2 py-0.5 rounded bg-slate-950">Kali Linux</span>
                   <span className="px-2 py-0.5 rounded bg-slate-950">SSH Hardening</span>
-                  <span className="px-2 py-0.5 rounded bg-slate-950">TLS / OpenPGP</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">OpenPGP</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">TLS / DNSSEC</span>
                 </div>
-                <a
-                  href="https://github.com/satriaprakasaa/network-security-audit-risk-assessment/blob/c59bd3e2e2bf40ecd72bf5b11a93e18e47efffe0/README.md"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-xs font-mono text-cyan-400 hover:text-cyan-300 transition-colors pt-1"
-                >
-                  <GitHubIcon size={14} />
-                  <span>View Documentation (GitHub)</span>
-                  <ExternalLink size={12} />
-                </a>
               </div>
             </div>
 
-            {/* PROYEK 5: Personal Portfolio Website */}
-            <div className="bg-slate-900/40 border border-slate-800 hover:border-cyan-500/50 rounded-2xl p-6 flex flex-col justify-between space-y-4 group transition-all duration-300 hover:-translate-y-1 md:col-span-2">
+            {/* PROYEK 6: Real-Time IoT Environmental Monitoring */}
+            <div className="bg-slate-900/40 border border-slate-800 hover:border-emerald-500/50 rounded-2xl p-6 flex flex-col justify-between space-y-4 group transition-all duration-300 hover:-translate-y-1">
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
-                  <span className="px-2.5 py-1 rounded bg-cyan-950/80 border border-cyan-500/30 text-cyan-400 font-mono text-[11px]">
-                    Web Development
+                  <span className="px-2.5 py-1 rounded bg-emerald-950/80 border border-emerald-500/30 text-emerald-400 font-mono text-[11px]">
+                    ACADEMIC PROJECT
                   </span>
-                  <span className="text-slate-500 font-mono text-xs">Production Ready</span>
+                  <span className="text-slate-500 font-mono text-xs">IoT Telemetry</span>
                 </div>
-                <h3 className="text-lg font-bold text-white group-hover:text-cyan-300 transition-colors">
-                  Personal Portfolio Website & Custom Domain Integration
+                <h3 className="text-lg font-bold text-white group-hover:text-emerald-300 transition-colors">
+                  Real-Time IoT Environmental Monitoring System (ESP32 + MQTT + Node-RED)
                 </h3>
                 <p className="text-slate-400 text-sm leading-relaxed">
-                  Perancangan, pengembangan antarmuka, dan pengintegrasian infrastruktur jaringan untuk website portofolio pribadi (<span className="text-slate-200">satriaprakasa.my.id</span>) yang ditujukan sebagai platform profesional showcase bagi Network & Security Engineering.
+                  Proyek ini mengimplementasikan sistem pemantauan suhu dan kelembapan lingkungan secara real-time berbasis Internet of Things (IoT). Simulasi mikrokontroler ESP32 membaca data telemetri dari sensor DHT22, mengirimkan payload berformat JSON ke broker MQTT publik HiveMQ, dan menampilkan visualisasi data pada Dashboard Node-RED berdesain Dark Theme / Modern UI.
                 </p>
               </div>
               <div className="pt-4 border-t border-slate-800/80 space-y-3">
                 <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400">
-                  <span className="px-2 py-0.5 rounded bg-slate-950">React.js</span>
-                  <span className="px-2 py-0.5 rounded bg-slate-950">Tailwind CSS</span>
-                  <span className="px-2 py-0.5 rounded bg-slate-950">Vite</span>
-                  <span className="px-2 py-0.5 rounded bg-slate-950">Vercel</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">ESP32</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">DHT22</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">MQTT</span>
+                  <span className="px-2 py-0.5 rounded bg-slate-950">Node-RED</span>
                 </div>
-                <a
-                  href="https://github.com/satriaprakasaa/network-portfolio-web/blob/1344989d76648ab71f1fc5e7fe0f5522f7312baa/README.md"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-xs font-mono text-cyan-400 hover:text-cyan-300 transition-colors pt-1"
-                >
-                  <GitHubIcon size={14} />
-                  <span>View Documentation (GitHub)</span>
-                  <ExternalLink size={12} />
-                </a>
               </div>
             </div>
 
